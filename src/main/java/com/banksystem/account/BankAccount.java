@@ -1,10 +1,10 @@
 package com.banksystem.account;
 
-    public class bankaccount {
-        private double balance;
-        private String accountNumber;
+    public class BankAccount {
+        protected double balance;
+        protected String accountNumber;
 
-        public bankaccount(String accountNumber) {
+        public BankAccount(String accountNumber) {
             this.accountNumber = accountNumber;
             this.balance = 0.0;
         }
